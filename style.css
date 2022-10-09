@@ -1,3 +1,111 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
+html { 
+    box-sizing: border-box; 
+}
+
 *, ::after, ::before { box-sizing: inherit; }
+
+body{
+    color: #282425;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    font-size: medium;
+    margin: 80px;
+}
+h1,
+h2,
+h3{
+    font-style: italic;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 36px;
+}
+
+a{
+    color: #282425;
+    font-style: italic;
+}
+
+section{
+    padding: 20px 8%;
+    overflow: auto;
+
+}
+
+.hlavicka,
+.omne,
+.sql,
+.python,
+.web,
+.javascript,
+.kamdal,
+.kontakt{
+    background-color: #FAE7CB;
+}
+
+.zacatek,
+.testovani,
+.devops{
+    background-color: #FCF1D4;
+}
+
+.sql,
+.web,
+.kamdal{
+    background-color: #FEFADC;
+}
+
+
+.foto-omne{
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0px 40px 30px 0px;
+}
+
+.logoczechitas{
+    width: 160px;
+    border-radius: 50px 0px 50px 50px;
+    float: left;
+    margin:  0px 30px 30px 0px
+}
+
+.logopython{
+    width: 160px;
+    border-radius: 0px 50px 50px 50px;
+    float: right;
+    margin: 0px 0px 30px 30px;
+}
+
+.logojs{
+    width: 160px;
+    border-radius: 0px 0px 50px 50px;
+    float: left;
+    margin:  0px 30px 30px 0px
+}
+
+.hlavicka{
+    overflow: auto;
+}
+
+.paticka{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+}
