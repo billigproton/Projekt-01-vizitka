@@ -1,3 +1,181 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+body {
+    font-family: 'Figtree', sans-serif;
+    line-height: 1.5;
+    color: #756158;
+    margin: 0px;
+    font-size: 20px;
+}
+
+h1, h2, h3, a {
+    color: #756158;
+    
+}
+
+h1 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #578080;
+    margin: 0;
+    
+
+
+}
+
+
+
+
+.hlavicka {
+    border-bottom: dashed 0.5px grey;
+    padding-top: 10px;
+    background-size: cover;
+}
+
+
+
+
+
+h3 {
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.omne{
+    margin: 0px;
+    padding: 400px;
+    background-image: url(obrazky/IMG_8698.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 10px rgb(255, 166, 0);
+}
+
+
+.menu li {
+    display: inline-block;
+
+}
+
+
+.menu {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #57808054;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+   
+}
+
+
+section {
+    margin: 0;
+    padding: 50px 15%;
+    font-size: 30px;
+    border-bottom: 0.5px dashed #57808054; 
+    background-size: cover;
+   
+    
+    
+}
+
+
+.svycarsko {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+.italie {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.anglie {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.paticka {
+
+    background-color:#578080;
+    color: white;
+    padding: 40px;
+    margin: 0;
+    overflow: auto;
+    
+
+}
+
+
+   
+   
+ 
+
+h4 {
+    color: white;
+    font-size: 50px;
+    
+
+    
+    
+    
+}
+
+h4 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+   
+    
+}
+
+
+
+.menu a:hover {
+    background-color: rgba(245, 219, 179, 0.999);
+}
+
+.svycarsko img {
+    width: 32%;
+    border-radius: 20px;
+    margin-top: 20px;
+ 
+}
+
+
+.italie img {
+    width: 32%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.anglie img {
+    width: 32%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+footer img {
+    border-radius: 50%;
+    width: 10%;
+    float: left;
+    margin: 20px 50px;
+}
