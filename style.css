@@ -60,7 +60,7 @@ h2 {
 }
 
 
-.menu li {
+.menu li, a {     /* display: inline-block musíš tady přidat jak li tak a */
     display: inline-block;
 
 }
