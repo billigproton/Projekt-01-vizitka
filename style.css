@@ -1,3 +1,168 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: sans-serif;
+    background-color: #FDF5E6;
+    font-family: 'Gentium Plus', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+}
+
+section {
+    padding: 60px 15%;
+    overflow: auto;
+}
+
+
+h2, h3 {
+    color: #BC8F8F;
+    margin-top: 0;
+}
+
+h1 {
+    font-style: bold;
+    font-family: sans-serif;
+    font-size: 150px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hlavicka {
+    background-image: url(obrázky/pozadi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 170px 30px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #BC8F8F;
+    }
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.manu a:active {
+    background-color: #AD6F69;
+}
+
+.omne img {
+    border-radius: 50%;
+    width: 20%;
+    border-color: #BC8F8F;
+    border-style: solid;
+    float: left;
+    margin: 60px 60px 60px 0px;
+}
+
+table {
+    border-spacing: 0;
+
+}
+
+th,td {
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.dny {
+    text-align: right;
+    padding-left: 70px;
+}
+
+.jidlo {
+    width: 20%;
+    float: right;
+    border-color: #BC8F8F;
+    border-style: solid;
+    margin-right: 300px;
+    border-radius: 11%;
+    
+}
+
+.londyn {
+    clear: both;
+}
+
+.taxi {
+    width: 33%;
+    border: 2px solid #BC8F8F;
+    float: left;
+    margin: 0px 60px 60px 0px;
+}
+
+
+.londyn-galerie img {
+    width: 33%;
+    display: inline-block;
+    border: 2px solid #BC8F8F;
+}   
+
+.portsmouth-galerie_a img {
+    width: 33%;
+    border: 2px solid #BC8F8F;
+}
+
+.portsmouth-galerie_b img {
+    width: 49%;
+    border: 2px solid #BC8F8F;
+}
+
+.arundel-galerie img {
+    width: 49%;
+    border: 2px solid #BC8F8F;
+}
+
+.pavilion {
+    width: 99%;
+    border: 2px solid #BC8F8F;
+}
+
+.leeds-galerie img {
+    width: 32%;
+    border: 2px solid #BC8F8F;
+}
+
+.york-galerie img {
+    width: 49%;
+    border: 2px solid #BC8F8F;
+}
+
+.york-galerie_b img {
+    width: 49%;
+    border: 2px solid #BC8F8F;
+}
+
+.peak-galerie img {
+    width: 32%;
+    border: 2px solid #BC8F8F;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+   }
