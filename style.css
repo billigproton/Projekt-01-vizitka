@@ -112,11 +112,17 @@ th,td {
     margin: 0px 60px 60px 0px;
 }
 
+.londyn-galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .londyn-galerie img {
     width: 33%;
-    display: inline-block;
     border: 2px solid #BC8F8F;
+    margin-bottom: 5px;
+    
 }   
 
 .portsmouth-galerie_a img {
